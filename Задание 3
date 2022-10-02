@@ -1,0 +1,14 @@
+using System;
+namespace HelloApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите массу в кг:"); // Вывод на экран надписи "Введите массу в кг:"
+            int i = int.Parse(Console.ReadLine()); // создание переменной и внос в неё значения с клавиатуры
+            Console.Write("полных тонн: "); // Вывод на экран надписи "полных тонн: "
+            Console.WriteLine(i / 1000);// вычисление значения "тонн" и вывод на экран
+        }
+    }
+}
