@@ -1,0 +1,14 @@
+using System;
+namespace HelloApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите число: "); // ввод числа с клавиатуры
+            int i = int.Parse(Console.ReadLine());
+            Console.Write("Вы ввели число: "); // вывод на экран числа, которое ввели с клавиатуры
+            Console.WriteLine(i);
+        }
+    }
+}
