@@ -1,0 +1,22 @@
+using System;
+namespace HelloApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите первое число:");
+            int a = int.Parse(Console.ReadLine()); // ввод первого числа с клавиатуры
+            Console.WriteLine("Введите второе число:");
+            int b = int.Parse(Console.ReadLine()); // ввод второго числа с клавиатуры
+            Console.Write("сумма: ");
+            Console.WriteLine(a + b); // вычисление суммы введённых чисел и вывод на экран
+            Console.Write("разность: ");
+            Console.WriteLine(a - b); // вычисление разности введённых чисел и вывод на экран
+            Console.Write("произведение: ");
+            Console.WriteLine(a * b); // вычисление произведения введённых чисел и вывод на экран
+            Console.Write("частное: ");
+            Console.WriteLine(a / b); // вычисление частного введённых чисел и вывод на экран
+        }
+    }
+}
